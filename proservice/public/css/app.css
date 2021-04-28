@@ -1,0 +1,276 @@
+body{
+    width: 1920px;
+    height: 767px;
+}
+header{
+    padding-left: 297px;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 30px;
+    background: #1A5871 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+header>span{
+    margin-right: 25px;
+    top: 7px;
+    left: 499px;
+    width: 0px;
+    height: 18px;
+    border: 1px solid #DBDBDB;
+    opacity: 1;
+}
+header>h2{
+    margin-left: 223px;
+    margin-right: 341px;
+    color: #FFFFFF;
+}
+header>p{
+    margin-right: 34px;
+    color: #FFFFFF;
+}
+
+.sel{
+    color: #54E1BC;
+}
+.section_1{
+    width: 1920px;
+    height: 737px;
+    background-color: #1a202c;
+    /*background: transparent url('public/img/4.jpg') 0% 0% no-repeat padding-box;*/
+    opacity: 1;
+}
+
+.border_1{
+    display: flex;
+    top: 30px;
+    left: 0;
+    width: 1920px;
+    height: 160px;
+    background: transparent linear-gradient(180deg, #1193C7 0%, #094A64 100%) 0% 0% no-repeat padding-box;
+    opacity: 0.75;
+}
+h1{
+    margin-top: 4px;
+    margin-left: 820px;
+    width: 275px;
+    height: 69px;
+    text-align: left;
+    font: normal normal normal 57px/69px BPG ExtraSquare Mtavruli;
+    letter-spacing: 6.44px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.nav_1{
+    position: absolute;
+    top: 127px;
+    left: 652px;
+    width: 616px;
+    height: 20px;
+    opacity: 1;
+}
+.nav_1>ul{
+    display: inline-flex;
+    text-align: left;
+    font: normal normal normal 16px/20px BPG ExtraSquare Mtavruli;
+    letter-spacing: 1.81px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.nav_1>ul>li{
+    display: inline-flex;
+    margin-right: 40px;
+}
+.l_r{
+    margin-top: 20px;
+  }
+.log_in{
+    position: absolute;
+    top: 87px;
+    left: 1513px;
+    width: 129px;
+    height: 20px;
+    text-align: left;
+    font: normal normal normal 16px/20px BPG ExtraSquare Mtavruli;
+    letter-spacing: 1.81px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.reg{
+    position: absolute;
+    top: 114px;
+    left: 1513px;
+    width: 129px;
+    height: 20px;
+    text-align: left;
+    font: normal normal normal 16px/20px BPG ExtraSquare Mtavruli;
+    letter-spacing: 1.81px;
+    color: #54E1BC;
+    opacity: 1;
+}
+.reservation{
+    position: absolute;
+    top: 230px;
+    left: 1230px;
+    width: 412px;
+    height: 470px;
+    background: transparent linear-gradient(180deg, #1193C7 0%, #094A64 100%) 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 0.63;
+}
+.reservation>h2{
+    top: 258px;
+    left: 1260px;
+    width: 131px;
+    height: 20px;
+    text-align: left;
+    font: normal normal normal 16px/20px BPG ExtraSquare Mtavruli;
+    letter-spacing: 1.81px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+header>svg{
+    position: absolute;
+    left: 270px;
+    width: 17px;
+    height: 17px;
+    background: #54E1BC 0% 0% no-repeat padding-box;
+    border: 0.5px solid #54E1BC;
+    opacity: 1;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+
+
+
+
+.rooms{
+    text-align: left;
+    font: normal normal normal 20px/25px BPG ExtraSquare Mtavruli;
+    letter-spacing: 2.26px;
+    color: #1A5871;
+    opacity: 1;
+}
+.all_room{
+    text-align: left;
+    font: normal normal normal 16px/20px BPG ExtraSquare Mtavruli;
+    letter-spacing: 0px;
+    color: #1A5871;
+    opacity: 1;
+}
+.prod_3{
+    display: flex;
+    margin-left: 278px;
+}
+.prod_1{
+    text-align: center;
+    margin-right: 30px;
+    width: 434px;
+    height: 563px;
+    background: #FBFBFB 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+    opacity: 1;
+}
+.cat{
+    margin-left: 278px;
+}
+.room_name{
+    margin-left: 41px;
+    width: 347px;
+    height: 20px;
+    text-align: left;
+    font: normal normal normal 16px/20px BPG ExtraSquare Mtavruli;
+    letter-spacing: 1.81px;
+    color: #1A5871;
+    opacity: 1;
+}
+.room_decryption{
+    margin-left: 41px;
+    width: 363px;
+    height: 168px;
+    text-align: left;
+    font: normal normal normal 14px/27px BPG Mrgvlovani;
+    letter-spacing: 0;
+    color: #1A5871;
+    opacity: 1;
+}
+.prod_1>img{
+    width: 434px;
+    height: 256px;
+    margin-bottom: 34px;
+}
+
+
+
+
+
+footer{
+    width: 1920px;
+    height: 84px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.border{
+    border-bottom-color: #1193C7;
+    border-radius: 3px;
+    width: 100%;
+}
+.section_2{
+    display: flex;
+}
+.news{
+    width: 456px;
+    height: 50px;
+    background: #54E1BC 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.news>p{
+    width: 132px;
+    height: 25px;
+    text-align: left;
+    font: normal normal normal 20px/25px BPG ExtraSquare Mtavruli;
+    letter-spacing: 2.26px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.contact{
+    width: 1464px;
+    height: 50px;
+    background: #1A5871 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.contact>p{
+    width: 646px;
+    height: 20px;
+    text-align: left;
+    font: normal normal normal 16px/20px BPG ExtraSquare Mtavruli;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+hr{
+    margin-top: 51px;
+    color: #1A5871;
+}
+.border{
+    display: flex;
+    margin: 31px 0 0 0;
+    justify-content: space-between;
+
+}
+.footer_p1{
+    margin-left: 278px;
+}
+.footer_p2{
+    margin-right: 278px;
+}
+.icon{
+    display: flex;
+}
+.icon>svg{
+margin-right: 50px;
+}
