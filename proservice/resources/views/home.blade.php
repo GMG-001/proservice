@@ -6,7 +6,9 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="{{ asset('css/reset.css') }}" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
     <title>home</title>
 </head>
 <body>
@@ -43,9 +45,40 @@
 
         <div class="reservation">
             <h2>RESERVATION</h2>
+            <label for="Check-in">Check-in date</label><br>
+            <input type="date" class="data" id="date"><br>
+            <label for="Check-out">Check-out date</label><br>
+            <input type="date" class="data" id="date1"><br>
+            <label for="number"></label>
+            <input type="number" class="data">
+            <label for="child_num"></label>
+            <input type="number">
+            <label for="room_num"></label>
+            <input type="number"><br>
+            <button type="submit">ძიება</button>
+            <script>
+                let today = new Date().toISOString().split('T')[0];
+                document.getElementById('date').setAttribute('min', today);
+                document.getElementById('date1').setAttribute('min', today);
+            </script>
+            <script>
+
+            </script>
         </div>
     </div>
-{{--    <img src="{{asset('img/4.jpg')}}" alt="slider">--}}
+{{--    <div id="carouselExampleSlidesOnly" class="carousel slide carousel_1" data-bs-ride="carousel">--}}
+{{--        <div class="carousel-inner">--}}
+{{--            <div class="carousel-item active">--}}
+{{--                <img src="{{asset('img/3.jpg')}}" class="d-block w-100" alt="...">--}}
+{{--            </div>--}}
+{{--            <div class="carousel-item">--}}
+{{--                <img src="{{asset('img/4.jpg')}}" class="d-block w-100" alt="...">--}}
+{{--            </div>--}}
+{{--            <div class="carousel-item">--}}
+{{--                <img src="{{asset('img/6.jpg')}}" class="d-block w-100" alt="...">--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
 </section>
 <section class="section_2">
     <div class="news">
@@ -100,5 +133,6 @@
     </p>
 </div>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </body>
 </html>

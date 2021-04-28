@@ -37,13 +37,11 @@ header>p{
 .section_1{
     width: 1920px;
     height: 737px;
-    background-color: #1a202c;
-    /*background: transparent url('public/img/4.jpg') 0% 0% no-repeat padding-box;*/
     opacity: 1;
 }
 
 .border_1{
-    display: flex;
+    position: absolute;
     top: 30px;
     left: 0;
     width: 1920px;
@@ -68,7 +66,8 @@ h1{
     left: 652px;
     width: 616px;
     height: 20px;
-    opacity: 1;
+    z-index: 1;
+    opacity: 0.5;
 }
 .nav_1>ul{
     display: inline-flex;
@@ -79,6 +78,7 @@ h1{
     opacity: 1;
 }
 .nav_1>ul>li{
+    color: #FFFFFF;
     display: inline-flex;
     margin-right: 40px;
 }
@@ -113,6 +113,7 @@ h1{
     position: absolute;
     top: 230px;
     left: 1230px;
+    padding-left: 30px;
     width: 412px;
     height: 470px;
     background: transparent linear-gradient(180deg, #1193C7 0%, #094A64 100%) 0% 0% no-repeat padding-box;
@@ -130,6 +131,44 @@ h1{
     color: #FFFFFF;
     opacity: 1;
 }
+.reservation>button{
+    top: 329px;
+    left: 1260px;
+    width: 337px;
+    height: 50px;
+    background: #54E1BC 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+    opacity: 1;
+}
+.reservation>label{
+    top: 302px;
+    left: 1260px;
+    height: 19px;
+    text-align: left;
+    font: normal normal normal 15px/19px BPG ExtraSquare Mtavruli;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.data{
+    left: 1260px;
+    width: 337px;
+    height: 50px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+    opacity: 1;
+}
+.s_box{
+    top: 557px;
+    width: 162px;
+    height: 50px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+    opacity: 1;
+}
 header>svg{
     position: absolute;
     left: 270px;
@@ -141,6 +180,8 @@ header>svg{
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
+
+
 
 
 
