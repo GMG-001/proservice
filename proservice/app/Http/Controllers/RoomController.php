@@ -3,12 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\Models\Room;
-use Illuminate\Http\Request;
 
 class RoomController extends Controller
 {
     public function index(){
-        $room=Room::all();
-        return view('home',compact('room'));
+        $rooms = Room::inRandomOrder()->limit(3)->get();
+        return view('home',compact('rooms'));
     }
 }
