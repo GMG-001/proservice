@@ -56,7 +56,6 @@
       <excludeFolder url="file://$MODULE_DIR$/proservice/vendor/vlucas/phpdotenv" />
       <excludeFolder url="file://$MODULE_DIR$/proservice/vendor/egulias/email-validator" />
       <excludeFolder url="file://$MODULE_DIR$/proservice/vendor/laravel/framework" />
-      <excludeFolder url="file://$MODULE_DIR$/proservice/vendor/laravel/sail" />
       <excludeFolder url="file://$MODULE_DIR$/proservice/vendor/laravel/tinker" />
       <excludeFolder url="file://$MODULE_DIR$/proservice/vendor/mockery/mockery" />
       <excludeFolder url="file://$MODULE_DIR$/proservice/vendor/monolog/monolog" />
@@ -113,6 +112,7 @@
       <excludeFolder url="file://$MODULE_DIR$/proservice/vendor/sebastian/recursion-context" />
       <excludeFolder url="file://$MODULE_DIR$/proservice/vendor/sebastian/object-reflector" />
       <excludeFolder url="file://$MODULE_DIR$/proservice/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/proservice/vendor/livewire/livewire" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
